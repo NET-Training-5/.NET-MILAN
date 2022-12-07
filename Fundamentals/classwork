@@ -1,0 +1,6 @@
+
+public double Numbers (double a, double b, double c)
+{
+    double Average = (a+b+C)/3;
+    return Average;
+} 
