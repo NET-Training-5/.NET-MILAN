@@ -1,0 +1,15 @@
+F:\Training\.NET-MILAN\Fundamentals\bin\Debug\net7.0\Fundamentals.exe
+F:\Training\.NET-MILAN\Fundamentals\bin\Debug\net7.0\Fundamentals.deps.json
+F:\Training\.NET-MILAN\Fundamentals\bin\Debug\net7.0\Fundamentals.runtimeconfig.json
+F:\Training\.NET-MILAN\Fundamentals\bin\Debug\net7.0\Fundamentals.dll
+F:\Training\.NET-MILAN\Fundamentals\bin\Debug\net7.0\Fundamentals.pdb
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.csproj.AssemblyReference.cache
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.AssemblyInfoInputs.cache
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.AssemblyInfo.cs
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.csproj.CoreCompileInputs.cache
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.dll
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\refint\Fundamentals.dll
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.pdb
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\Fundamentals.genruntimeconfig.cache
+F:\Training\.NET-MILAN\Fundamentals\obj\Debug\net7.0\ref\Fundamentals.dll
