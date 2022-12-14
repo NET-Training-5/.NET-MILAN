@@ -1,6 +1,36 @@
-
-public double Numbers (double a, double b, double c)
+class method
 {
-    double Average = (a+b+C)/3;
-    return Average;
-} 
+    public double FindAverages(int a, int b, int c)
+    {
+        var sum = (a + b + c);
+        var Average = (double)sum / 3;
+        return Average;
+    }
+
+
+    public double FindAverages(params int[] items)
+    {
+        var sum = 0;
+        foreach (var i in items)
+        {
+            sum = sum + i;
+        }
+        var Average = (double)sum / items.Length;
+        return Average;
+    }
+    //1. Write a method to find min and max of supplied numbers.
+    //This method should also accept variable number of arguments.
+    public (short, short) FindMinMAx(params short[] numbers) //8, 9, 2, -5, 1, 10
+    {
+        short min = short.MinValue, max = short.MinValue;
+        foreach (var num in numbers)
+        {
+            if (num < min)
+                min = num;
+            if (num > max)
+                max = num;
+        }
+        return (min, max);
+
+    }
+}

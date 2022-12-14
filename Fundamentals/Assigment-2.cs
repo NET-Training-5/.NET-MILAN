@@ -1,7 +1,7 @@
 using System;
 public class AreaOfRectangle
 {
-    public static void Main()
+    public static void Main1()
     {
         Console.WriteLine("Enter number of rows :");
         int rows = Convert.ToInt32(Console.ReadLine());
@@ -18,7 +18,7 @@ public class AreaOfRectangle
 }  
 public class Pyramid 
 {  
-    public static void Main() 
+    public static void Main2() 
 {
    int i, j, rows;
    Console.Write("Enter number of rows : ");

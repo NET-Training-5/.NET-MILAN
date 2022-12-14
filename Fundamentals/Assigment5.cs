@@ -30,7 +30,7 @@ class Room
         Console.WriteLine("The length of room is :" + Length + "and the width of room is :" + width);
 
     }
-    
+
 }
 class AreaOfRoom : Room
 {

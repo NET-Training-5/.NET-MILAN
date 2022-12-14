@@ -1,79 +1,74 @@
-class Selection
+using System;
+namespace PreBasic;
+class Variable
 {
-    // Methods
-    // Fields
-    //int personAge = 23;             // Camel Casing
-    public void LearnSelectionStatements() // Pascal casing
+    void LearnAboutVariables()
     {
-        // Conditionals, Selection statements
-        // If-else, if-elseif-else, switch
-        // Branching
+        // Static: C#, Java, C++, C
+        // Dynamic: JS, Ruby, Python
 
-        Console.Write("Enter your age:");
-        string ageText = Console.ReadLine();
-        short age = short.Parse(ageText);
+        // Datatypes
+        // Numbers
+        // Integral
+        byte? a = null;
+        short b = 32242;
+        ushort b1 = 32242;
+        int c = 34759835;
+        uint c1 = 34759835;
+        long d = 353153252353;
+        ulong d1 = 353153252353;
 
-        if (age > 18) // >,<,<=, >=, !=, ==
-        {
-            Console.WriteLine("You are adult now.");
-        }
-        else
-        {
-            Console.WriteLine("You are still a child.");
-        }
+        // Floating point
+        float e = 42234.34533574675777676743535f;
+        double f = 32424324.4564380951749186417826348724267486;
+        decimal g = 423524525.3453245235235345m;
 
-        // age < 18, Output should be "You are child"
-        // age > 18 and age < 40, Output should be "You are adult"
-        // age > 40 and age < 60, Output should be "You are in your middle age"
-        // age > 60, Output should be "You are old now"
+        string h = "Bishnu skdjfhasj fhahdkljfh alkjhf akjfh akjdfhas ljfdg";
+        char i = 'M';
 
-        if(age < 18)
-        {
-            Console.WriteLine("You are child");
-        }
-        else if(age < 40)
-        {
-            Console.WriteLine("You are adult");
-        }
-        else if(age < 60)
-        {
-            Console.WriteLine("You are in your middle age");
-        }
-        else
-        {
-            Console.WriteLine("You are old now");
-        }
+        bool? j = null;     // nullable boolean variable
 
-        // Mesh - "ka, kha"
-        // Tula - "Ga gha"
-        // Brisha - "Ba Bi"
-        Console.Write("Enter your rashi:");
-        string rashi = Console.ReadLine();
+        DateTime dob;
+        DateOnly chunabDay;
+        TimeOnly meetingToday;
 
-        if(rashi == "Mesh")
-        {
-            Console.WriteLine("Mesh rashi intials are ka, kha...");
-        }
-        else if(rashi == "Tula")
-        {
-            Console.WriteLine("Tula rashi intials are Ga, Gha...");
-        }
-        else
-        {
-            Console.WriteLine("Brisha rashi intials are ba, bi...");
-        }
+        // Arrays
+        // One dimensional
+        byte[] personAges = new byte[5];
+        personAges[0] = 89;
+        personAges[1] = 9;
+        personAges[2] = 18;
+        personAges[3] = 67;
+        personAges[4] = 23;
+        var x = personAges[2];
 
-        switch(rashi)
-        {
-            case "Mesh": Console.WriteLine("Mesh rashi intials are ka, kha...");
-            break;
-            case "Tula": Console.WriteLine("Tula rashi intials are Ga, Gha...");
-            break;
-            case "Brisha": Console.WriteLine("Brisha rashi intials are ba, bi...");
-            break;
-            default:Console.WriteLine("Unknown rashi");
-            break;
-        }
+        byte[] peopleAges = { 89, 9, 18, 67, 23 };
 
+        // Write an array to hold student names
+        string[] names = { "Ram", "Shyam", "Lakhan", "Pranish" };
+
+        // Multi dimensinal
+
+        //  3   8   9
+        //  8   7   3
+
+        int[,] mat = new int[2, 3];
+        mat[0, 0] = 3;
+        mat[0, 1] = 8;
+        mat[0, 2] = 9;
+        mat[1, 0] = 8;
+        mat[1, 1] = 7;
+        mat[1, 2] = 3;
+
+        int[,] table = { { 3, 8, 9, 5 }, { 8, 7, 3, 7 } };
+
+        // Jagged array
+        //  2   4   7
+        //  1   5
+        //  9   8   4   5
+        short[][] items = new short[3][];
+        items[0] = new short[] { 2, 4, 7 };
+        items[1] = new short[] { 1, 5 };
+        items[2] = new short[] { 9, 8, 4, 5 };
     }
 }
