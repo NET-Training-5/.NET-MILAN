@@ -99,5 +99,8 @@ class EntryPoint
 
         FileIO fi = new();
         fi.CreateDirectoriesAndFiles();
+
+        hero h = new();
+        h.mIlan();
     }
 }
