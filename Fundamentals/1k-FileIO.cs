@@ -29,4 +29,16 @@ class FileIO
 
         }
     }
-}
+    public void CreateFolder()
+    {
+        for (int j=1; j<=10; j++)
+        {
+        var folderName = "Folder" + j;
+        var folderPath = @$"F:\Folder1\{folderName}";
+        Directory.CreateDirectory(folderPath);
+        var filePath = folderPath + @"\text.cs";
+        File.WriteAllText(filePath, $"// I am in {folderName}");
+
+        }
+    }  
+} 
