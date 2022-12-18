@@ -102,7 +102,14 @@ class EntryPoint
 
         // hero h = new();
         // h.mIlan();
-        FileIO f = new();
-        f.CreateFolder();
+
+
+        // FileIO f = new();
+        // f.CreateFolder();
+
+
+        LINQ1 I = new();
+        I.LearnToQuery();
+
     }
 }
