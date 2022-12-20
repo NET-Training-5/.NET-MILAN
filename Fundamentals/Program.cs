@@ -108,8 +108,14 @@ class EntryPoint
         // f.CreateFolder();
 
 
-        LINQ1 I = new();
-        I.LearnToQuery();
+        // LINQ1 I = new();
+        // I.LearnToQuery();
+
+        
+        ParallelAndAsync par = new();
+        par.WriteParallelCode();
+        par.isPrimeOrNot();
+
 
     }
 }
