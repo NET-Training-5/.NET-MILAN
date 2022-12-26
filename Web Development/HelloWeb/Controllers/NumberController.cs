@@ -2,8 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 
 public class NumberController : Controller
 {
-    public IActionResult Greet()
+    public IActionResult MTable()
     {
-        return View() ;   //   /number/greet
+        return View() ; 
+    }
+    public IActionResult MultiplicationTableFromTo(int from,int to)
+    {
+        return View((from, to)) ; 
     }
 }
